@@ -3,10 +3,6 @@
 一个基于 GO 与 百度文字转语音接口，实现文章转语音的软件  
 A text-to-speech software based on GO and Baidu text-to-speech interface
 
-## 项目介绍：
-
-一个基于 GO 与 百度语音接口，实现文章转语音的软件
-
 ## 参数:
 
 | 参数 | 默认值  | 类型   | 备注             |
@@ -18,6 +14,9 @@ A text-to-speech software based on GO and Baidu text-to-speech interface
 * 如果不需要改变的话不需要添加环境变量保持默认值即可.
 
 ## 使用方法
+
+wz___ 分别为已经编译好的各个平台可直接使用的二进制文件
+
 ``` bash
 # 例如
 ./wzmac -name="default" -p -s=6
