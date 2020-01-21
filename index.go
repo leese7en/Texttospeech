@@ -44,7 +44,6 @@ func saveMavP(send []string, ss string, filename string) {
 	//分片逐步写入
 	for i, char := range send {
 		go SpiderPage(char, page, i, filename, ss)
-		time.Sleep(time.Second / 10)
 	}
 	for i := 0; i < len(send); i++ {
 		fmt.Println("下载完成", <-page)
