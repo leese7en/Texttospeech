@@ -1,6 +1,6 @@
 # Texttospeech
 
-一个基于 GO 与 百度文字转语音接口，实现文章转语音的软件
+一个基于 GO 与 百度文字转语音接口，实现文章转语音的软件  
 A text-to-speech software based on GO and Baidu text-to-speech interface
 
 ## 项目介绍：
@@ -13,7 +13,7 @@ A text-to-speech software based on GO and Baidu text-to-speech interface
 |------|---------|--------|------------------|
 | p    | false   | bool   | 是否使用并发转换 |
 | name | default | string | txt/输出音频名称 |
-| s    | 6       | int    | 声色             |
+| s    | 6       | int    | 音色             |
 
 * 如果不需要改变的话不需要添加环境变量保持默认值即可.
 
