@@ -3,6 +3,11 @@
 一个基于 GO 与 百度文字转语音接口，实现高速文章转语音的软件  
 A text-to-speech software based on GO and Baidu text-to-speech interface
 
+### fixed
+
+1.通过增加 sync.RWMutex 锁的方式，避免了再超高并发情况下 Map 被同时写入导致报错的情况
+2.爬虫失败时的错误处理
+
 ## 参数:
 
 | 参数 | 默认值  | 类型   | 备注             |
